@@ -1,5 +1,5 @@
 {
-  "name": "node-cache",
+  "name": "@avernikoz/node-cache",
   "description": "Simple and fast NodeJS internal caching. Node internal in memory cache like memcached.",
   "keywords": [
     "cache",
@@ -41,11 +41,16 @@
   ],
   "main": "./index.js",
   "types": "./index.d.ts",
-  "homepage": "https://github.com/node-cache/node-cache",
+  "homepage": "https://github.com/avernikoz/node-cache",
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-cache/node-cache.git"
+    "url": "git@github.com:avernikoz/node-cache.git"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">= 8.0.0"
